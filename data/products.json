@@ -1,0 +1,128 @@
+[
+    {
+        "category_id": "breakfast",
+        "image": "https://i.ibb.co/GkjgnbB/breakfast1.png",
+        "name": "Eggs Benedict",
+        "description": "How we dream about our future",
+        "price": 6.99
+    },
+    {
+        "category_id": "breakfast",
+        "image": "https://i.ibb.co/dkVgVqv/breakfast2.png",
+        "name": "Breakfast sandwich",
+        "description": "How we dream about our future",
+        "price": 9.99
+    },
+    {
+        "category_id": "breakfast",
+        "image": "https://i.ibb.co/sVg3sKL/breakfast3.png",
+        "name": "Baked Chiken",
+        "description": "How we dream about our future",
+        "price": 10.99
+    },
+    {
+        "category_id": "breakfast",
+        "image": "https://i.ibb.co/FWb59XL/breakfast4.png",
+        "name": "Bagel and cream cheese ",
+        "description": "How we dream about our future",
+        "price": 8.99
+    },
+    {
+        "category_id": "breakfast",
+        "image": "https://i.ibb.co/ZYp3m2y/breakfast5.png",
+        "name": "Toast Croissant Fried Egg",
+        "description": "How we dream about our future",
+        "price": 19.99
+    },
+    {
+        "category_id": "breakfast",
+        "image": "https://i.ibb.co/KqS6Dqt/breakfast6.png",
+        "name": "Fried Egg Toast Brunch",
+        "description": "How we dream about our future",
+        "price": 4.99
+    },
+    {
+        "category_id": "lunch",
+        "image": "https://i.ibb.co/NCkvnsg/lunch1.png",
+        "name": "Healthy Meal Plan",
+        "description": "How we dream about our future",
+        "price": 23.99
+    },
+    {
+        "category_id": "lunch",
+        "image": "https://i.ibb.co/f8NdfLs/lunch2.png",
+        "name": "Fried Chicken Bento",
+        "description": "How we dream about our future",
+        "price": 9.99
+    },
+    {
+        "category_id": "lunch",
+        "image": "https://i.ibb.co/2WbqwJD/lunch3.png",
+        "name": "Tarragon Rubbed Salmon",
+        "description": "How we dream about our future",
+        "price": 6.99
+    },
+    {
+        "category_id": "lunch",
+        "image": "https://i.ibb.co/t82s3Gg/lunch4.png",
+        "name": "Indian Lunch",
+        "description": "How we dream about our future",
+        "price": 8.99
+    },
+    {
+        "category_id": "lunch",
+        "image": "https://i.ibb.co/6svz9fQ/lunch5.png",
+        "name": "Beef Steak",
+        "description": "How we dream about our future",
+        "price": 15.99
+    },
+    {
+        "category_id": "lunch",
+        "image": "https://i.ibb.co/fdk7FzM/lunch6.png",
+        "name": "Honey Soy Glazed Peppers",
+        "description": "How we dream about our future",
+        "price": 7.99
+    },
+    {
+        "category_id": "dinner",
+        "image": "https://i.ibb.co/yPyvVz2/dinner1.png",
+        "name": "Baked Chiken",
+        "description": "How we dream about our future",
+        "price": 9.99
+    },
+    {
+        "category_id": "dinner",
+        "image": "https://i.ibb.co/k87SJD1/dinner2.png",
+        "name": "Lemony Salmon Piccata",
+        "description": "How we dream about our future",
+        "price": 10.99
+    },
+    {
+        "category_id": "dinner",
+        "image": "https://i.ibb.co/r4Zk6r8/dinner3.png",
+        "name": "Garlic Butter Baked Salmon",
+        "description": "How we dream about our future",
+        "price": 12.99
+    },
+    {
+        "category_id": "dinner",
+        "image": "https://i.ibb.co/XJL8BFh/dinner4.png",
+        "name": "French Fries With Cheese",
+        "description": "How we dream about our future",
+        "price": 8.99
+    },
+    {
+        "category_id": "dinner",
+        "image": "https://i.ibb.co/SsJQLGh/dinner5.png",
+        "name": "Pork Tenderloin Pilaf",
+        "description": "How we dream about our future",
+        "price": 6.99
+    },
+    {
+        "category_id": "dinner",
+        "image": "https://i.ibb.co/xhwn9BY/dinner6.png",
+        "name": "Salmon With Grapefruit",
+        "description": "How we dream about our future",
+        "price": 13.99
+    }
+]
