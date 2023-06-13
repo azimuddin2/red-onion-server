@@ -31,9 +31,8 @@ async function run() {
     try {
         const foodCollection = client.db("redOnion").collection("foods");
 
-        app.get('/category/:id', async (req, res) => {
-            const id = req.params.id;
-            const query = {category_id : id};
+        app.get('/foods', async (req, res) => {
+            const query = {};
             const foods = await foodCollection.find(query).toArray();
             res.send(foods);
         });
