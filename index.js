@@ -10,12 +10,6 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const categories = require('./data/categories.json');
-
-app.get('/categories', (req, res) => {
-    res.send(categories);
-});
-
 // Database connection
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.t3bn8t4.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, {
