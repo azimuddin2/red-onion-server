@@ -26,9 +26,17 @@ async function run() {
         const foodCollection = client.db("redOnion").collection("foods");
 
         app.get('/foods', async (req, res) => {
-            const query = {};
-            const foods = await foodCollection.find(query).toArray();
-            res.send(foods);
+            const search = req.query.search;
+            let cursor;
+
+            if (search) {
+                cursor = foodCollection.find({ name: { $regex: search, $options: 'i' } });
+            } else {
+                cursor = foodCollection.find();
+            }
+
+            const result = await cursor.toArray();
+            res.send(result);
         });
 
     }
