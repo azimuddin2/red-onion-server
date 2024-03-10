@@ -24,7 +24,9 @@ const client = new MongoClient(uri, {
 async function run() {
     try {
         const foodCollection = client.db("redOnion").collection("foods");
+        const reviewsCollection = client.db('redOnion').collection('reviews');
 
+        // food related api
         app.get('/foods', async (req, res) => {
             const search = req.query.search;
             let cursor;
@@ -37,6 +39,14 @@ async function run() {
 
             const result = await cursor.toArray();
             res.send(result);
+        });
+
+
+        // reviews related api
+        app.get('/reviews', async (req, res) => {
+            const query = {};
+            const reviews = await reviewsCollection.find(query).toArray();
+            res.send(reviews);
         });
 
     }
