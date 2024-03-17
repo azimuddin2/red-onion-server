@@ -5,7 +5,7 @@
         "name": "Eggs Benedict",
         "description": "How we dream about our future",
         "price": 6.99,
-        "shadow ": "shadow-none"
+        "quantity": 1
     },
     {
         "category_id": "breakfast",
@@ -13,7 +13,7 @@
         "name": "Breakfast sandwich",
         "description": "How we dream about our future",
         "price": 9.99,
-        "shadow ": "shadow"
+        "quantity": 1
     },
     {
         "category_id": "breakfast",
@@ -21,7 +21,7 @@
         "name": "Baked Chiken",
         "description": "How we dream about our future",
         "price": 10.99,
-        "shadow ": "shadow-none"
+        "quantity": 1
     },
     {
         "category_id": "breakfast",
@@ -29,7 +29,7 @@
         "name": "Bagel and cream cheese ",
         "description": "How we dream about our future",
         "price": 8.99,
-        "shadow ": "shadow-none"
+        "quantity": 1
     },
     {
         "category_id": "breakfast",
@@ -37,7 +37,7 @@
         "name": "Toast Croissant Fried Egg",
         "description": "How we dream about our future",
         "price": 19.99,
-        "shadow ": "shadow-none"
+        "quantity": 1
     },
     {
         "category_id": "breakfast",
@@ -45,7 +45,7 @@
         "name": "Fried Egg Toast Brunch",
         "description": "How we dream about our future",
         "price": 4.99,
-        "shadow ": "shadow-none"
+        "quantity": 1
     },
     {
         "category_id": "lunch",
@@ -53,7 +53,7 @@
         "name": "Healthy Meal Plan",
         "description": "How we dream about our future",
         "price": 23.99,
-        "shadow ": "shadow-none"
+        "quantity": 1
     },
     {
         "category_id": "lunch",
@@ -61,7 +61,7 @@
         "name": "Fried Chicken Bento",
         "description": "How we dream about our future",
         "price": 9.99,
-        "shadow ": "shadow"
+        "quantity": 1
     },
     {
         "category_id": "lunch",
@@ -69,15 +69,15 @@
         "name": "Tarragon Rubbed Salmon",
         "description": "How we dream about our future",
         "price": 6.99,
-        "shadow ": "shadow-none"
+        "quantity": 1
     },
     {
         "category_id": "lunch",
-        "image": "https://i.ibb.co/x5gKWkh/lunch4.png",
+        "image": "https://i.ibb.co/J7vHNRT/lunch4.png",
         "name": "Indian Lunch",
         "description": "How we dream about our future",
         "price": 8.99,
-        "shadow ": "shadow-none"
+        "quantity": 1
     },
     {
         "category_id": "lunch",
@@ -85,15 +85,15 @@
         "name": "Beef Steak",
         "description": "How we dream about our future",
         "price": 15.99,
-        "shadow ": "shadow-none"
+        "quantity": 1
     },
     {
         "category_id": "lunch",
-        "image": "https://i.ibb.co/9NXSCwR/lunch6.png",
+        "image": "https://i.ibb.co/C648gzp/lunch6.png",
         "name": "Honey Soy Glazed Peppers",
         "description": "How we dream about our future",
         "price": 7.99,
-        "shadow ": "shadow-none"
+        "quantity": 1
     },
     {
         "category_id": "dinner",
@@ -101,7 +101,7 @@
         "name": "Baked Chiken",
         "description": "How we dream about our future",
         "price": 9.99,
-        "shadow ": "shadow-none"
+        "quantity": 1
     },
     {
         "category_id": "dinner",
@@ -109,7 +109,7 @@
         "name": "Lemony Salmon Piccata",
         "description": "How we dream about our future",
         "price": 10.99,
-        "shadow ": "shadow"
+        "quantity": 1
     },
     {
         "category_id": "dinner",
@@ -117,7 +117,7 @@
         "name": "Garlic Butter Baked Salmon",
         "description": "How we dream about our future",
         "price": 12.99,
-        "shadow ": "shadow-none"
+        "quantity": 1
     },
     {
         "category_id": "dinner",
@@ -125,7 +125,7 @@
         "name": "French Fries With Cheese",
         "description": "How we dream about our future",
         "price": 8.99,
-        "shadow ": "shadow-none"
+        "quantity": 1
     },
     {
         "category_id": "dinner",
@@ -133,7 +133,7 @@
         "name": "Pork Tenderloin Pilaf",
         "description": "How we dream about our future",
         "price": 6.99,
-        "shadow ": "shadow-none"
+        "quantity": 1
     },
     {
         "category_id": "dinner",
@@ -141,6 +141,6 @@
         "name": "Salmon With Grapefruit",
         "description": "How we dream about our future",
         "price": 13.99,
-        "shadow ": "shadow-none"
+        "quantity": 1
     }
 ]

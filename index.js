@@ -25,6 +25,7 @@ async function run() {
     try {
         const foodCollection = client.db("redOnion").collection("foods");
         const reviewsCollection = client.db('redOnion').collection('reviews');
+        const cartsCollection = client.db('redOnion').collection('carts');
 
         // food related api
         app.get('/foods', async (req, res) => {
@@ -38,6 +39,31 @@ async function run() {
             }
 
             const result = await cursor.toArray();
+            res.send(result);
+        });
+
+
+        // carts related api
+        app.post('/carts', async (req, res) => {
+            const cartItem = req.body;
+            const query = { name: cartItem.name };
+
+            const existingFood = await cartsCollection.findOne(query);
+            if (existingFood) {
+                return res.send({ message: 'This meal is already in the cart.' })
+            }
+
+            const result = await cartsCollection.insertOne(cartItem);
+            res.send(result);
+        });
+
+        app.get('/carts', async (req, res) => {
+            const email = req.query.email;
+            if (!email) {
+                return res.send([])
+            }
+            const query = { email: email };
+            const result = await cartsCollection.find(query).toArray();
             res.send(result);
         });
 
