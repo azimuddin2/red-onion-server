@@ -46,15 +46,19 @@ async function run() {
         // carts related api
         app.post('/carts', async (req, res) => {
             const cartItem = req.body;
-            const query = { name: cartItem.name };
+            const query = {
+                email: cartItem.email,
+                name: cartItem.name
+            };
 
             const existingFood = await cartsCollection.findOne(query);
             if (existingFood) {
                 return res.send({ message: 'This meal is already in the cart.' })
             }
-
-            const result = await cartsCollection.insertOne(cartItem);
-            res.send(result);
+            else {
+                const result = await cartsCollection.insertOne(cartItem);
+                return res.send(result);
+            }
         });
 
         app.get('/carts', async (req, res) => {
